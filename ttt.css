@@ -1,0 +1,51 @@
+body{
+    background-color:rgb(47, 169, 169);
+    color:whitesmoke;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;   
+    background-image: url("./xo.jpeg"); 
+    background-size:contain;
+}
+h1{
+    margin-bottom: 100px;
+}
+#buttons{
+    width:70vw;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    opacity: 0.9;
+}
+
+#three{
+    width: 25vw;
+    display: flex;
+    flex-wrap: wrap;
+}
+.box{
+    height:100px;
+    width: 100px;
+    border: none;
+    border-radius: 15%;
+    margin: 2px;
+    font-size: 1.6rem;
+    background-color: beige;
+    color: black;
+}
+#restart{
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color:red;
+    font-weight: 100;
+}
+.winner{
+    font-family: cursive;
+    visibility: visible;
+}
+.hide{
+    visibility: hidden;
+}
